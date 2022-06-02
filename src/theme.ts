@@ -43,6 +43,13 @@ const theme = createTheme({
         },
       },
     },
+    MuiTab: {
+      styleOverrides: {
+        root: {
+          padding: "30px 16px",
+        },
+      },
+    },
   },
 });
 

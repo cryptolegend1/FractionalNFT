@@ -4,7 +4,7 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select, { SelectChangeEvent } from "@mui/material/Select";
 
-export default function SortSelect() {
+export default function CollectionSortSelect() {
   const [sortBy, setSortBy] = React.useState("Most Recent");
 
   const handleChange = (event: SelectChangeEvent) => {

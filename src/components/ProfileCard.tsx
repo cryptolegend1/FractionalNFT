@@ -6,7 +6,7 @@ import Typography from "@mui/material/Typography";
 import { Box, CardActionArea, Divider } from "@mui/material";
 import { Avatar, Flex } from "./styled";
 
-export default function CollectionCard() {
+export default function ProfileCard() {
   return (
     <Card sx={{ maxWidth: 350 }}>
       <CardActionArea>
@@ -21,28 +21,28 @@ export default function CollectionCard() {
             component="img"
             src="https://lh3.googleusercontent.com/BdxvLseXcfl57BiuQcQYdJ64v-aI8din7WPk0Pgo3qQFhAUH-B6i-dCqqc_mCkRIzULmwzwecnohLhrcH8A9mpWIZqA7ygc52Sr81hE=s120"
           />
-          <Flex py={2} alignItems="normal" justifyContent="center" gap="5px">
-            <Typography variant="h6" component="span">
-              CryptoPunks
-            </Typography>
-            <Box component="img" src="assets/verified.svg" />
-          </Flex>
+          <Typography variant="h6" py={2}>
+            CryptoPunks
+          </Typography>
+          <Typography variant="subtitle1" pb={3}>
+            0xBeC69dfcE...6B06
+          </Typography>
           <Divider />
-          <Flex gap="40px" mt={3} textAlign="left">
+          <Flex justifyContent="space-between" mt={3} textAlign="left">
+            <Box>
+              <Typography variant="subtitle1" pb={1}>
+                TOTAL COLLECTION VALUE
+              </Typography>
+              <Typography variant="h6" pb={1}>
+                Ξ 82.407586
+              </Typography>
+            </Box>
             <Box>
               <Typography variant="subtitle1" pb={1}>
                 # OF VAULTS
               </Typography>
               <Typography variant="h6" pb={1}>
-                28
-              </Typography>
-            </Box>
-            <Box>
-              <Typography variant="subtitle1" pb={1}>
-                # OF NFTS
-              </Typography>
-              <Typography variant="h6" pb={1}>
-                143
+                2
               </Typography>
             </Box>
           </Flex>

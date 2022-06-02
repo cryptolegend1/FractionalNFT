@@ -12,6 +12,9 @@ function Header() {
         padding: "20px 30px",
         justifyContent: "space-between",
         background: "#fff",
+        position: "sticky",
+        top: 0,
+        zIndex: 2,
       }}
     >
       <Flex>
