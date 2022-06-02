@@ -3,6 +3,15 @@ import { red } from "@mui/material/colors";
 
 // A custom theme for this app
 const theme = createTheme({
+  breakpoints: {
+    values: {
+      xs: 0,
+      sm: 600,
+      md: 900,
+      lg: 1200,
+      xl: 1440,
+    },
+  },
   palette: {
     background: {
       default: "rgb(244, 245, 246)",
@@ -22,6 +31,12 @@ const theme = createTheme({
       fontSize: "32px",
       lineHeight: "32px",
       fontWeight: "bold",
+    },
+    h2: {
+      fontSize: "14px",
+      lineHeight: "20px",
+      fontWeight: "bold",
+      textTransform: "uppercase",
     },
     h6: {
       fontSize: "16px",

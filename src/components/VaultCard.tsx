@@ -8,7 +8,7 @@ import { Flex } from "./styled";
 
 export default function VaultCard() {
   return (
-    <Card sx={{ maxWidth: 350 }}>
+    <Card sx={{ maxWidth: 330 }}>
       <CardActionArea>
         <CardMedia
           component="img"
