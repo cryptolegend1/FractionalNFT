@@ -38,6 +38,11 @@ const theme = createTheme({
       fontWeight: "bold",
       textTransform: "uppercase",
     },
+    h3: {
+      fontSize: "20px",
+      lineHeight: "28px",
+      fontWeight: "bold",
+    },
     h6: {
       fontSize: "16px",
       lineHeight: "20px",
@@ -45,9 +50,8 @@ const theme = createTheme({
     },
     subtitle1: {
       fontSize: "10px",
-      lineHeight: "12px",
+      lineHeight: "13px",
       fontWeight: 700,
-      color: "rgb(143, 151, 163)",
     },
   },
   components: {
@@ -62,6 +66,13 @@ const theme = createTheme({
       styleOverrides: {
         root: {
           padding: "30px 16px",
+        },
+      },
+    },
+    MuiChip: {
+      styleOverrides: {
+        icon: {
+          color: "#2e7d32",
         },
       },
     },
