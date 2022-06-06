@@ -3,26 +3,12 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import { Avatar, Box, Chip, Divider, IconButton, styled } from "@mui/material";
+import { Avatar, Box, Chip, Divider } from "@mui/material";
 import FavoriteIcon from "@mui/icons-material/Favorite";
-import { Flex } from "./styled";
-import VerificationBadge from "./Badges/VerificationBadge";
-import NFTBadge from "./Badges/NFTBadge";
-import LiveBadge from "./Badges/LiveBadge";
-
-const FavoriteIconButton = styled(IconButton)`
-  background: #fff;
-  box-shadow: 0 12px 40px rgb(31 47 70 / 8%);
-  .MuiSvgIcon-root {
-    fill-opacity: 0.2;
-  }
-  &:hover {
-    background: #fff;
-    .MuiSvgIcon-root {
-      fill-opacity: 0.4;
-    }
-  }
-`;
+import { FavoriteIconButton, Flex } from "../styled";
+import VerificationBadge from "../Badges/VerificationBadge";
+import NFTBadge from "../Badges/NFTBadge";
+import LiveBadge from "../Badges/LiveBadge";
 
 export default function VaultCard() {
   return (

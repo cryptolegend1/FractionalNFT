@@ -4,7 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Box, CardActionArea, Divider } from "@mui/material";
-import { Avatar, Flex } from "./styled";
+import { Avatar, Flex } from "../styled";
 
 export default function ProfileCard() {
   return (

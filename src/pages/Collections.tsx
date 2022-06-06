@@ -1,6 +1,6 @@
 import { Divider, Typography } from "@mui/material";
 import React from "react";
-import CollectionCard from "../components/CollectionCard";
+import CollectionCard from "../components/Cards/CollectionCard";
 import CollectionSortSelect from "../components/CollectionSortSelect";
 import { StyledContainer, Flex } from "../components/styled";
 

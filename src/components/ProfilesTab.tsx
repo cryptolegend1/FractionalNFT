@@ -1,6 +1,6 @@
 import React from "react";
 import { Flex } from "./styled";
-import ProfileCard from "./ProfileCard";
+import ProfileCard from "./Cards/ProfileCard";
 
 function ProfilesTab() {
   return (

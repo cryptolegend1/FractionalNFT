@@ -1,32 +1,32 @@
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import React from "react";
 import FilterItem from "./FilterItem";
 import { Flex } from "./styled";
-import VaultCard from "./VaultCard";
+import VaultCard from "./Cards/VaultCard";
+import VerificationFilter from "./Filters/VerificationFilter";
+import StatusFilter from "./Filters/StatusFilter";
+import VaultTypeFilter from "./Filters/VaultTypeFilter";
+import ValuationRangeFilter from "./Filters/ValuationRangeFilter";
+import CollectionFilter from "./Filters/CollectionFilter";
 
 function VaultsTab() {
   const desktopVersion = () => {
     return (
       <Box width="260px">
         <FilterItem title="Verification">
-          <Typography variant="body1">AAA</Typography>
-          <Typography variant="body1">bbb</Typography>
+          <VerificationFilter />
         </FilterItem>
         <FilterItem title="Status">
-          <Typography variant="body1">AAA</Typography>
-          <Typography variant="body1">bbb</Typography>
+          <StatusFilter />
         </FilterItem>
         <FilterItem title="Vault Type">
-          <Typography variant="body1">AAA</Typography>
-          <Typography variant="body1">bbb</Typography>
+          <VaultTypeFilter />
         </FilterItem>
         <FilterItem title="Valuation Range">
-          <Typography variant="body1">AAA</Typography>
-          <Typography variant="body1">bbb</Typography>
+          <ValuationRangeFilter />
         </FilterItem>
         <FilterItem title="Collections">
-          <Typography variant="body1">AAA</Typography>
-          <Typography variant="body1">bbb</Typography>
+          <CollectionFilter />
         </FilterItem>
       </Box>
     );
