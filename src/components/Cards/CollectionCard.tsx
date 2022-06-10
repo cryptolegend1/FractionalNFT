@@ -9,7 +9,7 @@ import { Avatar, Flex } from "../styled";
 export default function CollectionCard() {
   return (
     <Card sx={{ maxWidth: 330 }}>
-      <CardActionArea>
+      <CardActionArea href="/collections/collectionId">
         <CardMedia
           component="img"
           height="140"

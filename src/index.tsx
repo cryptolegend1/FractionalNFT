@@ -8,6 +8,7 @@ import Collections from "./pages/Collections";
 import Explore from "./pages/Explore";
 import Home from "./pages/Home";
 import theme from "./theme";
+import Collection from "./pages/Collection";
 
 ReactDOM.render(
   <ThemeProvider theme={theme}>
@@ -18,6 +19,7 @@ ReactDOM.render(
         <Route path="/" element={<Home />} />
         <Route path="/explore" element={<Explore />} />
         <Route path="/collections" element={<Collections />} />
+        <Route path="/collections/:collectionId" element={<Collection />} />
       </Routes>
     </BrowserRouter>
   </ThemeProvider>,

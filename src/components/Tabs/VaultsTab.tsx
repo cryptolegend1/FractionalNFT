@@ -1,13 +1,13 @@
 import { Box } from "@mui/material";
 import React from "react";
-import FilterItem from "./FilterItem";
-import { Flex } from "./styled";
-import VaultCard from "./Cards/VaultCard";
-import VerificationFilter from "./Filters/VerificationFilter";
-import StatusFilter from "./Filters/StatusFilter";
-import VaultTypeFilter from "./Filters/VaultTypeFilter";
-import ValuationRangeFilter from "./Filters/ValuationRangeFilter";
-import CollectionFilter from "./Filters/CollectionFilter";
+import FilterItem from "../FilterItem";
+import { Flex } from "../styled";
+import VaultCard from "../Cards/VaultCard";
+import VerificationFilter from "../Filters/VerificationFilter";
+import StatusFilter from "../Filters/StatusFilter";
+import VaultTypeFilter from "../Filters/VaultTypeFilter";
+import ValuationRangeFilter from "../Filters/ValuationRangeFilter";
+import CollectionFilter from "../Filters/CollectionFilter";
 
 function VaultsTab() {
   const desktopVersion = () => {

@@ -20,7 +20,7 @@ function Header() {
       <Flex>
         <Box
           component="img"
-          src="logo192.png"
+          src="/logo192.png"
           width={40}
           height={40}
           mr="10px"

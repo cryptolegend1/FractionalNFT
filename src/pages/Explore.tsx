@@ -2,8 +2,8 @@ import { Divider, Tab, Tabs } from "@mui/material";
 import React, { useState } from "react";
 import { Flex, StyledContainer } from "../components/styled";
 import VaultSortSelect from "../components/VaultSortSelect";
-import ProfilesTab from "../components/ProfilesTab";
-import VaultsTab from "../components/VaultsTab";
+import ProfilesTab from "../components/Tabs/ProfilesTab";
+import VaultsTab from "../components/Tabs/VaultsTab";
 
 function Explore() {
   const [tab, setTab] = useState("vaults");
