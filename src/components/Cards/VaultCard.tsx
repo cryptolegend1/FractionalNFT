@@ -12,7 +12,12 @@ import LiveBadge from "../Badges/LiveBadge";
 
 export default function VaultCard() {
   return (
-    <Card sx={{ maxWidth: 350, position: "relative", cursor: "pointer" }}>
+    <Card
+      sx={{ maxWidth: 350, position: "relative", cursor: "pointer" }}
+      onClick={() => {
+        window.location.href = "/vaults/the-doge-nft";
+      }}
+    >
       <Flex
         justifyContent="space-between"
         position="absolute"

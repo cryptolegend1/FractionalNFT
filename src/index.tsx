@@ -9,6 +9,7 @@ import Explore from "./pages/Explore";
 import Home from "./pages/Home";
 import theme from "./theme";
 import Collection from "./pages/Collection";
+import Vault from "./pages/Vault";
 
 ReactDOM.render(
   <ThemeProvider theme={theme}>
@@ -18,6 +19,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/explore" element={<Explore />} />
+        <Route path="/vaults/:vaultId" element={<Vault />} />
         <Route path="/collections" element={<Collections />} />
         <Route path="/collections/:collectionId" element={<Collection />} />
       </Routes>
