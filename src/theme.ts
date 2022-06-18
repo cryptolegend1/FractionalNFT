@@ -33,15 +33,25 @@ const theme = createTheme({
       fontWeight: "bold",
     },
     h2: {
-      fontSize: "14px",
-      lineHeight: "20px",
+      fontSize: "24px",
+      lineHeight: "32px",
       fontWeight: "bold",
-      textTransform: "uppercase",
+      marginBottom: "16px",
     },
     h3: {
       fontSize: "20px",
       lineHeight: "28px",
       fontWeight: "bold",
+    },
+    h4: {
+      fontSize: "14px",
+      lineHeight: "20px",
+      fontWeight: "bold",
+      textTransform: "uppercase",
+    },
+    h5: {
+      fontSize: "12px",
+      lineHeight: "16px",
     },
     h6: {
       fontSize: "16px",

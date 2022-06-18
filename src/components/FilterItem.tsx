@@ -25,7 +25,7 @@ const FilterItem = (props: any) => {
   return (
     <>
       <FilterItemButton onClick={handleClick}>
-        <Typography variant="h2">{props.title}</Typography>
+        <Typography variant="h4">{props.title}</Typography>
         {open ? (
           <IconButton size="small" sx={{ background: "#fff" }}>
             <ExpandLess fontSize="small" />
